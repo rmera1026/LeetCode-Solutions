@@ -55,6 +55,7 @@ public:
         if (out >= INT_MAX)
             return INT_MAX;
         
+        //we need to cast out variable as int because we decalred it as a long int.
         return (int)out;
     }
 };
